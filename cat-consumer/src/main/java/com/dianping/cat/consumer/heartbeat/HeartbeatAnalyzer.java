@@ -102,7 +102,7 @@ public class HeartbeatAnalyzer extends AbstractMessageAnalyzer<HeartbeatReport> 
 
 		report.getDomainNames().addAll(m_reportManager.getDomains(getStartTime()));
 		return report;
-	}
+	}FileChannel
 
 	@Override
 	public ReportManager<HeartbeatReport> getReportManager() {
